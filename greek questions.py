@@ -9,7 +9,7 @@ a=input.pop(0)
 b=input.pop(-1)
 print(input)
 c=len(input)
-
+'''this command shows you'''
 input.insert(0,b)
 input.insert(-1,a)
 print(input)
