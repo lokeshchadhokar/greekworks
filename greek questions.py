@@ -2,6 +2,7 @@
 
 Input : [12, 35, 9, 56, 24]
 Output : [24, 35, 9, 56, 12]'''
+
 input = [12, 35, 9, 56, 24]#list type
 print('original list',input)
 c=len(input)#its contain length of list
@@ -30,4 +31,15 @@ def swap(list):
 li= [10,20,30,40,50]
 print(swap(li))
 
+
+input = [12, 35, 9, 56, 24]
+a=input.pop(0)
+b=input.pop(-1)
+print(input)
+c=len(input)
+'''this command shows you'''
+input.insert(0,b)
+input.insert(-1,a)
+print(input)
+print('hello world')
 
